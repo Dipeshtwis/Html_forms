@@ -3,10 +3,7 @@
  <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <link
-   rel="stylesheet"
-   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css" />
   <title>Html Forms</title>
  </head>
@@ -18,7 +15,7 @@
     <p><a href="#">I forgot my User ID or Password</a></p>
    </div>
    <div>
-    <button class="sign">Sign In</button>
+    <button class="sign"><a href="#"><i class="fas fa-lock" id="lock" aria-hidden="true"></i><span>Sign In</span></a></button>
    </div>
   </nav>
 
@@ -26,8 +23,6 @@
   <div class="main-col">
    <div class="flex-container">
     <div><img class="intuit-logo" src="images/intuit.png" /></div>
-    <div></div>
-
     <div>
      <form class="form">
       <h4 class="h4-header">Create an Intuit account</h4>
@@ -41,7 +36,7 @@
        <h5>Standard call, messaging or data rates may apply.</h5>
        <label for="Password">Password</label><br /><br />
        <input type="text" name="Password" id="Password" />
-       <button class="btn">Create account</button>
+       <button class="btn"><a href="#"><i class="fas fa-lock" id="lock" aria-hidden="true"></i><span>Create account</span></a></button>
       </fieldset>
       <p>
        By clicking Create account, you agree to our <a href="#">Terms</a> and
@@ -56,5 +51,16 @@
    </div>
   </div>
   <!--Footer Section-->
+  <section class="flex-footer">
+  	<div class="linked-footer">
+  		<div class="legal"><span><a href="#">Legal </a></span></div>
+  		<div class="privacy"><span><a href="#">  Privacy</a></span></div>
+  		<div class="Security"><span><a href="#"> Security </a></span></div>
+  	</div>
+  	<div class="para-footer">
+  		<p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+  		<p class="lowest-footer">Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+  	</div>
+  </section>
  </body>
 </html>

@@ -14,15 +14,20 @@
  vertical-align: middle;
 }
 .sign {
- background-color: #33ace8;
+ background-color: #3665d9;
  font-size: 15px;
  font-family: Georgia, "Times New Roman", Times, serif;
  color: white;
  margin: 4px;
  border-radius: 5px;
  border: 1px solid black;
- width: 140px;
- height: 40px;
+ width: 110px;
+ height: 35px;
+}
+.sign a{
+	color: white;
+	text-decoration: none;
+	margin-right: 2px;
 }
 .nav-align p a {
  color: #33ace8;
@@ -32,7 +37,9 @@
  padding: 0px;
  margin: 2px;
 }
+
 /* form section */
+
 .main-col {
  width: 100%;
  height: 100%;
@@ -48,7 +55,8 @@
  background-color: white;
  width: 400px;
  height: auto;
- margin-top: -220px;
+ margin-top: -190px;
+ border: 1px solid grey;
 }
 .intuit-logo {
  width: 600px;
@@ -128,6 +136,16 @@ a:visited {
  width: 80%;
  margin: 5px 0 27px 0;
  padding: 5px 5px;
+ background-color: #3665d9;
+ color: white;
+}
+.btn a{
+	color:white;
+	text-decoration:none;
+}
+#lock{
+	padding-right: 7px;
+	color: white;
 }
 .account-info button {
  padding-bottom: 8px;
@@ -135,18 +153,57 @@ a:visited {
  margin-left: 8px;
 }
 .form-footer {
+ font-size:12px;
  text-align: center;
  padding: 20px 25px;
  color: #7a7968;
  font-weight: lighter;
  background-color: #e0dfd5;
 }
+
+/* footer */
+.flex-footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.linked-footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+}
+.legal{
+	padding-right: 12px;
+}
+.privacy{
+	padding-right: 12px;
+}
+.para-footer{
+	align-items: center;
+	font-weight: lighter;
+	font-size: 12px;
+}
+.para-footer p{
+	padding-bottom: -10px;
+}
+.lowest-footer{
+	padding-left: 70px;
+	margin-top: -8px;
+}
+
 /*Media Queries*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
  .nav-flex {
   visibility: hidden;
  }
  .main-col {
   margin-top: -380px;
  }
+.lowest-footer{
+	padding-left: 0px;
+	margin-top: -8px;
+}
 }
