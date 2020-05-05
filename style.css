@@ -1,1 +1,54 @@
-
+*box {
+ box-sizing: border-box;
+}
+.body {
+ background-color: #e6e2e1;
+}
+.main-col {
+ width: 100%;
+ height: 100%;
+}
+.flex-container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.form {
+ background-color: white;
+ width: 400px;
+ height: 600px;
+ margin-top: -220px;
+}
+.intuit-logo {
+ width: 600px;
+ height: 500px;
+ margin: 0px;
+}
+.h4-header {
+ color: #5c5958;
+ font-family: Georgia, "Times New Roman", Times, serif;
+ font-size: 25px;
+ font-weight: lighter;
+ text-align: center;
+ padding-top: 35px;
+}
+.form p {
+ color: #858382;
+ font-family: Georgia, "Times New Roman", Times, serif;
+ font-size: 15px;
+ font-weight: lighter;
+ text-align: center;
+}
+.form a {
+ align-items: center;
+}
+a:hover {
+ color: #33ace8;
+}
+a:link {
+ color: #33ace8;
+}
+a:visited {
+ color: #858382;
+}
