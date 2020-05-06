@@ -10,9 +10,14 @@
 .nav-flex {
  display: flex;
  justify-content: flex-end;
+<<<<<<< HEAD
  width: 100%;
  height: 40px;
  align-items: center;
+=======
+ height: 200px;
+  align-items: center;
+>>>>>>> dd131ffb9a3df678411f8d9226d36f4a58990499
 }
 .sign {
  background-color: #3665d9;
@@ -124,7 +129,7 @@
  text-decoration: none;
 }
 a:hover {
- background-color: #0678bf;
+ color: #0678bf;
  text-decoration: none;
 }
 a:link {
@@ -154,12 +159,20 @@ a:visited {
  padding: 5px 8px;
  width: 100%;
 }
+<<<<<<< HEAD
 .account-info input[type="tel"],
 .account-info input[type="email"],
+=======
+
+.account-info input[type="email"],
+.account-info input[type="tel"]
+>>>>>>> dd131ffb9a3df678411f8d9226d36f4a58990499
 .account-info input[type="password"] {
- padding-bottom: 8px;
- padding-left: 10px;
+  padding-bottom: 8px;
+  padding-left: 10px;
 }
+
+.account-info input[type="email"] { margin-bottom: 6px; }
 .account-info h5 {
  margin-top: -20px;
  font-weight: lighter;
