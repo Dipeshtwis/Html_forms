@@ -53,7 +53,7 @@
 }
 .form {
  background-color: white;
- width: 380px;
+ width: 370px;
  height: auto;
  margin-top: -190px;
  border: 1px solid grey;
@@ -88,13 +88,15 @@
  text-decoration: none;
 }
 a:hover {
- color: #33ace8;
+ color: #34b2fa;
+ text-decoration: none;
 }
 a:link {
- color: #33ace8;
+ color: #34b2fa;
+ text-decoration: none;
 }
-a:visited {
- color: #858382;
+a:visited{
+	text-decoration: none;
 }
 .account-info {
  align-items: center;
@@ -151,6 +153,9 @@ a:visited {
  padding-bottom: 8px;
  padding-left: 10px;
 }
+.term{
+font-style: italic;
+}
 .form-footer {
  font-size:12px;
  text-align: center;
@@ -177,9 +182,18 @@ a:visited {
 }
 .legal{
 	padding-right: 12px;
+	font-size: 13px;
+	text-decoration: none;
+
 }
 .privacy{
 	padding-right: 12px;
+	font-size: 13px;
+	text-decoration: none;
+}
+.Security{
+	font-size: 12px;
+	text-decoration: none;
 }
 .para-footer{
 	align-items: center;
