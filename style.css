@@ -9,11 +9,10 @@
 
 .nav-flex {
  display: flex;
- flex-direction: row;
  justify-content: flex-end;
  width: 100%;
- height: 200px;
- vertical-align: middle;
+ height: 40px;
+ align-items: center;
 }
 .sign {
  background-color: #3665d9;
@@ -49,14 +48,11 @@
  flex-direction: column;
  align-items: center;
  justify-content: center;
- margin-top: -100px;
+ margin-top: 0px;
 }
 .flex-sub-logo {
  display: flex;
- flex-direction: row;
- flex-flow: row;
  width: 100%;
- height: auto;
  align-items: center;
  justify-content: center;
 }
@@ -88,7 +84,6 @@
  font-family: Verdana, Geneva, Tahoma, sans-serif;
  font-size: 12px;
  font-weight: lighter;
- text-align: left;
  margin: -20px 5px 20px 3px;
 }
 .form {
@@ -159,16 +154,8 @@ a:visited {
  padding: 5px 8px;
  width: 100%;
 }
-
-.account-info input[type="email"] {
- padding-left: 10px;
- padding-bottom: 8px;
- margin-bottom: 6px;
-}
-.account-info input[type="tel"] {
- padding-bottom: 8px;
- padding-left: 10px;
-}
+.account-info input[type="tel"],
+.account-info input[type="email"],
 .account-info input[type="password"] {
  padding-bottom: 8px;
  padding-left: 10px;
