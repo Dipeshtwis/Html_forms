@@ -53,10 +53,11 @@
 }
 .form {
  background-color: white;
- width: 400px;
+ width: 380px;
  height: auto;
  margin-top: -190px;
  border: 1px solid grey;
+ border-radius: 3px;
 }
 .intuit-logo {
  width: 600px;
@@ -69,19 +70,22 @@
  font-size: 25px;
  font-weight: lighter;
  text-align: center;
- padding-top: 35px;
+ padding-top: 5px;
 }
 .form p {
  color: #858382;
  font-family: Georgia, "Times New Roman", Times, serif;
- font-size: 15px;
+ font-size: 14px;
  font-weight: lighter;
  text-align: center;
  padding-left: 25px;
  padding-right: 25px;
+ margin-top: -15px;
 }
 .form a {
  align-items: center;
+ font-size: 12px;
+ text-decoration: none;
 }
 a:hover {
  color: #33ace8;
@@ -93,7 +97,7 @@ a:visited {
  color: #858382;
 }
 .account-info {
- margin-left: 15px;
+ align-items: center;
  border: hidden;
 }
 .account-info label {
@@ -109,7 +113,7 @@ a:visited {
  display: block;
  margin: 5px 0 27px 0;
  padding: 5px 8px;
- width: 80%;
+ width: 100%;
 }
 
 .account-info input[type="email"] {
@@ -133,9 +137,9 @@ a:visited {
 .btn {
  border: 1px solid #c6c9cc;
  border-radius: 5px;
- width: 80%;
- margin: 5px 0 27px 0;
- padding: 5px 5px;
+ width: 100%;
+ margin: 5px 5px 27px 0px;
+ padding: 5px 8px;
  background-color: #3665d9;
  color: white;
 }
@@ -146,7 +150,6 @@ a:visited {
 .account-info button {
  padding-bottom: 8px;
  padding-left: 10px;
- margin-left: 8px;
 }
 .form-footer {
  font-size:12px;
@@ -202,3 +205,4 @@ a:visited {
 	margin-top: -8px;
 }
 }
+
