@@ -4,7 +4,7 @@ This HTML form page is designed with basic HTML and CSS features. Fontawsome ico
 
 # Original Design
 
-For the original design: [Intuit.com](https://accounts.intuit.com/index.html)
+For the original design: [Intuit.com](https://accounts.intuit.com/signup.html)
 
 # Project Design
 
