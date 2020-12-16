@@ -51,14 +51,22 @@ Flex boxes are used with vertical alignment. Added media queries for smaller siz
 
 # Authors:
 
-## Dipesh Kumar
+👤 **Dipesh Kumar**
 
-Github: @Dipeshtwis
-Twitter: @97deepeshkumar
-Linkedin: linkedni : https://www.linkedin.com/in/dipesh-kumar-b6ab88134/
+- Github: [@Dipeshtwis](https://github.com/Dipeshtwis)
+- Twitter: [@97deepeshkumar](https://twitter.com/97deepeshkumar)
+- Linkedin: [dipeshtwis](https://www.linkedin.com/in/dipeshtwis/)
 
-## Yiğit Mersin
+👤 **Yigit Mersin**
 
-Github: @yigitm
-Twitter: @ygtmrsn
-Linkedin: https://www.linkedin.com/in/yigitmersin
+- Github: [@yigitm](https://github.com/yigitm)
+- Twitter: [@ygtmrsn](https://twitter.com/ygtmrsn)
+- Linkedin: [yigit](https://www.linkedin.com/in/yigitmersin/)
+
+## 👍 Show your support
+
+Give a ⭐️ if you like this project!
+
+## :clap: Acknowledgements
+
+- Microverse: [@microverse](https://www.microverse.org/)
